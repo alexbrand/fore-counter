@@ -1,4 +1,4 @@
-// swift-tools-version: 5.9
+// swift-tools-version: 6.0
 
 import PackageDescription
 
@@ -9,12 +9,14 @@ let package = Package(
         .target(
             name: "ForeCounterKit",
             path: "ForeCounter",
-            sources: ["Models", "Services", "ViewModels"]
+            sources: ["Models", "Services", "ViewModels"],
+            swiftSettings: [.swiftLanguageMode(.v5)]
         ),
         .testTarget(
             name: "ForeCounterTests",
             dependencies: ["ForeCounterKit"],
-            path: "ForeCounterTests"
+            path: "ForeCounterTests",
+            swiftSettings: [.swiftLanguageMode(.v5)]
         ),
     ]
 )
