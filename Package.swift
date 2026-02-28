@@ -9,6 +9,7 @@ let package = Package(
         .target(
             name: "ForeCounterKit",
             path: "ForeCounter",
+            exclude: ["Views", "ForeCounterApp.swift"],
             sources: ["Models", "Services", "ViewModels"],
             swiftSettings: [.swiftLanguageMode(.v5)]
         ),
