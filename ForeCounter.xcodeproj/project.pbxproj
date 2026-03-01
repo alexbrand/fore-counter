@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A4A5A374961213A30DFE68F /* ScorecardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1580663EEF8399603A717EFE /* ScorecardView.swift */; };
+		3A8786DB5004980544D1DA37 /* HoleScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA611FB53A161AD127E4CD26 /* HoleScore.swift */; };
+		50D05CE55389B2D9BD35C6EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA4BFC17BAB355820A2B9C /* ContentView.swift */; };
+		7FFE50EE49518A8A00189501 /* Round.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AED977D248DC0BA4A2B21A /* Round.swift */; };
+		9DD121DA9F102B1DB42C8583 /* RoundStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA153635D69380D535EADB73 /* RoundStore.swift */; };
+		E574D2B8F593914270D32254 /* RoundViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553D77310F896F1F36137080 /* RoundViewModel.swift */; };
+		F01DC99DD709964807007D61 /* ForeCounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814FA3FF4A6B09BC2F6EBF2D /* ForeCounterApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08CA4BFC17BAB355820A2B9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1580663EEF8399603A717EFE /* ScorecardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorecardView.swift; sourceTree = "<group>"; };
+		553D77310F896F1F36137080 /* RoundViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundViewModel.swift; sourceTree = "<group>"; };
+		7A74B68E778175F3EA9CA7F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		814FA3FF4A6B09BC2F6EBF2D /* ForeCounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForeCounterApp.swift; sourceTree = "<group>"; };
+		92502F19D8EE5E20DA59CCE5 /* ForeCounter Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ForeCounter Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA153635D69380D535EADB73 /* RoundStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundStore.swift; sourceTree = "<group>"; };
+		DA611FB53A161AD127E4CD26 /* HoleScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleScore.swift; sourceTree = "<group>"; };
+		F4AED977D248DC0BA4A2B21A /* Round.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Round.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4610433CC0415E0E9D37CC87 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				553D77310F896F1F36137080 /* RoundViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		55FFBC2760AC660A3A2D60DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				08CA4BFC17BAB355820A2B9C /* ContentView.swift */,
+				1580663EEF8399603A717EFE /* ScorecardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6FD49253494E13FF9525F734 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DA611FB53A161AD127E4CD26 /* HoleScore.swift */,
+				F4AED977D248DC0BA4A2B21A /* Round.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8C7D47DB15C5C7DCA1224033 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AA153635D69380D535EADB73 /* RoundStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A24AA8EAC676D18597F2C0EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92502F19D8EE5E20DA59CCE5 /* ForeCounter Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFE5DCC53E5D7B4454159C72 /* ForeCounter */ = {
+			isa = PBXGroup;
+			children = (
+				814FA3FF4A6B09BC2F6EBF2D /* ForeCounterApp.swift */,
+				7A74B68E778175F3EA9CA7F7 /* Info.plist */,
+				6FD49253494E13FF9525F734 /* Models */,
+				8C7D47DB15C5C7DCA1224033 /* Services */,
+				4610433CC0415E0E9D37CC87 /* ViewModels */,
+				55FFBC2760AC660A3A2D60DC /* Views */,
+			);
+			path = ForeCounter;
+			sourceTree = "<group>";
+		};
+		F6C9282343EB7C151D9E715D = {
+			isa = PBXGroup;
+			children = (
+				DFE5DCC53E5D7B4454159C72 /* ForeCounter */,
+				A24AA8EAC676D18597F2C0EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DADDB9CB7027371DB2B1F204 /* ForeCounter Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2102385ADF17644A5563CFF3 /* Build configuration list for PBXNativeTarget "ForeCounter Watch App" */;
+			buildPhases = (
+				4EADF16C100B265C0DC4B4E4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ForeCounter Watch App";
+			packageProductDependencies = (
+			);
+			productName = "ForeCounter Watch App";
+			productReference = 92502F19D8EE5E20DA59CCE5 /* ForeCounter Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFC6157EEC6D1650300D878E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 8C280C124FB0701E9909B224 /* Build configuration list for PBXProject "ForeCounter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F6C9282343EB7C151D9E715D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DADDB9CB7027371DB2B1F204 /* ForeCounter Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EADF16C100B265C0DC4B4E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D05CE55389B2D9BD35C6EE /* ContentView.swift in Sources */,
+				F01DC99DD709964807007D61 /* ForeCounterApp.swift in Sources */,
+				3A8786DB5004980544D1DA37 /* HoleScore.swift in Sources */,
+				7FFE50EE49518A8A00189501 /* Round.swift in Sources */,
+				9DD121DA9F102B1DB42C8583 /* RoundStore.swift in Sources */,
+				E574D2B8F593914270D32254 /* RoundViewModel.swift in Sources */,
+				1A4A5A374961213A30DFE68F /* ScorecardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		206206A51AB9DDBB7DD55105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ForeCounter/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexbrand.ForeCounter;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		6205DB8A2A08C3CF9C9E95F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		637DF85C1F97EE6FE2DC6B1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		DF5AF60CCA50D2AB3B0DDD44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ForeCounter/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexbrand.ForeCounter;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2102385ADF17644A5563CFF3 /* Build configuration list for PBXNativeTarget "ForeCounter Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				206206A51AB9DDBB7DD55105 /* Debug */,
+				DF5AF60CCA50D2AB3B0DDD44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8C280C124FB0701E9909B224 /* Build configuration list for PBXProject "ForeCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637DF85C1F97EE6FE2DC6B1B /* Debug */,
+				6205DB8A2A08C3CF9C9E95F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFC6157EEC6D1650300D878E /* Project object */;
+}

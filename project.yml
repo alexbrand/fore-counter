@@ -1,0 +1,20 @@
+name: ForeCounter
+options:
+  bundleIdPrefix: com.alexbrand
+  deploymentTarget:
+    watchOS: "10.0"
+
+targets:
+  ForeCounter Watch App:
+    type: application
+    platform: watchOS
+    sources:
+      - path: ForeCounter
+    info:
+      path: ForeCounter/Info.plist
+      properties:
+        WKApplication: true
+        WKWatchOnly: true
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.alexbrand.ForeCounter
+      SWIFT_VERSION: "5.0"
